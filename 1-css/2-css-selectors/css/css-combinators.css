@@ -1,0 +1,18 @@
+div+p{
+    color: red;
+}
+article+p{
+    color: green;
+}
+p+p{
+    color: red;
+}
+div+p+p+article{color: aqua;}
+
+/* select first div in the coutent */
+div:first-child{
+    color: rgb(41, 38, 226);
+}
+p~div{
+    color: slateblue;
+}

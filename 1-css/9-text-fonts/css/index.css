@@ -1,0 +1,35 @@
+@font-face{
+    font-family: myFont;
+    src: url(../fonts/Cosmos.otf);
+}
+
+@font-face{
+    font-family: myFont1;
+    src: url(../fonts/Desire\ Script\ Font.otf);  
+
+    }
+
+
+@font-face{
+        font-family: myFont2;
+        src: url(../fonts/Lovely\ fabulous\ slant.ttf);
+
+        }
+
+article h1{
+    font-family: myFont;
+}
+article p{
+    font-family:myFont1;
+}
+
+
+/* font-family: 'Kaushan Script', cursive;
+font-family: 'Great Vibes', cursive; */
+section h1{
+    font-family: 'Kaushan Script', cursive;
+}
+section p{
+    font-family:'Great Vibes', cursive ;
+}
+

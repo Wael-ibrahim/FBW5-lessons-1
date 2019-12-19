@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+nav{
+    margin: 10px;
+    text-align: center;
+    position: sticky;
+    top: 20px;
+    background-color: rgba(173, 171, 168, 0.534);
+    
+}
+nav>ul>li{
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(120, 139, 139);
+    text-align: center;
+    padding-top: 7px;
+    
+    border-radius: 0 10px 0 10px;
+
+}
+nav>ul>li>a{
+    text-decoration:none ;
+    display: block;
+    color: rgb(255, 255, 255);
+}
+nav>ul>li:hover{
+    background-color: rgb(43, 40, 40);
+    box-shadow: 5px 5px 5px black;
+    font-size: 18px;
+    padding-top: 5px;
+}

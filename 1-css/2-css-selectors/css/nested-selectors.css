@@ -1,0 +1,21 @@
+/* only paragraph are red */
+.divClass>p{
+    color: red;
+}
+
+
+
+ /* only the paragraph inside article element is red */
+article p{ color: red; } 
+
+
+/* only the paragraph wich is directly insid the element with class "divClass" */
+.divClass>p{
+     color: red;
+}
+
+.divClass div p, .divClass>p{
+    color: blue;
+}
+
+

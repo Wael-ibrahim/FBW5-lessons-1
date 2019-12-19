@@ -1,0 +1,30 @@
+
+.container{
+    width: 100%;
+    /* border: 1px solid black; */
+    
+}
+.container td{
+    /* border: 1px solid black; */
+    vertical-align: top;
+    
+}
+
+
+td{
+
+    width: 16.5%;
+}
+
+td:first-child{
+    width: 50%;
+}
+/* #des + div, #prop + div, #rev + div{
+    display: none;
+} */
+input + div, input{
+    display: none;
+}
+input:checked + div{
+    display: block;
+}

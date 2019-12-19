@@ -1,0 +1,14 @@
+.somelink:visited{
+    color:red;
+}
+.somelink:active{
+    color: green;
+}
+
+#check1{
+    display: none;
+}
+input[type="checkbox"]:checked + label{
+    color: red;
+}
+

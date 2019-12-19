@@ -1,0 +1,23 @@
+.table{
+    width: 100%;
+   
+}
+/* the follwing selector will select tr if tr was the first element inside any element*/
+
+/* tr:first-child{
+    background-color: grey;
+} */
+
+
+/* we can use (odd) or (even) = (2n+1) or (2n+2)*/
+
+/* .table tr:nth-child(odd){
+    background-color: grey;
+}
+.table tr:nth-child(even){
+    background-color: red;
+} */
+
+.table tr:nth-child(3n){
+    background-color: hotpink;
+}

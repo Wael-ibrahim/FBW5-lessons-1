@@ -1,0 +1,29 @@
+.somediv{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    
+    right: 20px;
+    top: 50px;
+    position: relative;
+    z-index: 1;
+}
+.par{
+    position: relative;
+    bottom: 100px;
+    z-index: 2;
+}
+.container{
+    position: relative;
+    background-color: blue;
+    left: 100px;
+}
+.fixeddiv{
+    background-color: chartreuse;
+    height: 50px;
+    width:50px ;
+    position: sticky;
+    top: 50vh;
+    left: 50vw;
+    
+}

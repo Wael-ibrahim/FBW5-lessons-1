@@ -1,0 +1,23 @@
+.somediv{
+    height: 2000px;
+    width: 500px;
+    background-color: red;
+
+}
+.subdiv{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    position: fixed;
+    top: 10px;
+    
+}
+.nav{
+    
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    font-size: 40px;
+    color: black;
+}
+

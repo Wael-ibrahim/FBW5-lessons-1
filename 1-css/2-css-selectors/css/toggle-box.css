@@ -1,0 +1,26 @@
+.togglebox:checked + label{
+        color: red;
+}
+.togglebox{
+    display: none;
+}
+
+ 
+
+
+
+
+.nav{
+    display: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+.list:checked~.nav{
+    display: block;
+}
+
+.list{
+    display: none;
+}
