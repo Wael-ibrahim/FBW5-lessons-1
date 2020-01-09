@@ -1,0 +1,30 @@
+.somediv{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    color: white;
+    font-size: 30px;
+    transform: translatey(100px);
+    position: relative;
+    /* transform: skew(10deg);  rotate, rotatex, rotatey,  scalex,scaley, skew, skewx,skewy, */
+}
+.somediv:hover{
+    transform: skewy(10deg);
+}
+
+/* using % in translate refrenced to the same element that is been styled */
+.somediv span{
+    position: absolute;
+    background-color: blue;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+   
+}
+/*
+.somediv span{
+    position: absolute;
+    background-color: blue;
+    transform: translate(calc(100px - 50%),calc(100px - 50%)); 
+    }
+    */

@@ -1,0 +1,32 @@
+.somediv{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    background-color: aqua;
+
+
+}
+
+.spa{
+    left: 0;
+    top: 0;
+    position: absolute;
+    transition-duration: 4s;
+    transition-property: all;
+
+}
+
+.somediv:hover .spa {
+    
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+   
+}
+
+.somediv:hover{
+    /* width: 100vw;
+     height: 400px; */
+     
+    background-color: red; 
+}
