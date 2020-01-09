@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+}
+.somediv1{
+   height: 50px;
+   width: 100%;
+   /* background-color: red;    */
+   border: 1px solid black;
+}
+.somediv2{
+    height: 90px;
+    width: 100%;
+    /* background-color: blue;    */
+    border: 1px solid black;
+ }
+ .somediv3{
+     float: left;
+    height: 90px;
+    width: 20%;
+    /* background-color:green;    */
+    border: 1px solid black;
+ }
+ .somediv4{
+     float: left;
+    height: 90px;
+    width: 80%;
+    /* background-color:palevioletred;    */
+    border: 1px solid black;
+ }
+ .somediv5{
+    float: left;
+   height: 90px;
+   width: 80%;
+   /* background-color:rgb(224, 97, 50);    */
+   border: 1px solid black;
+}
+.somediv6{
+    float: right;
+   height: 180px;
+   width: 20%;
+   /* background-color:rgb(34, 25, 165);    */
+   border: 1px solid black;
+}
+.somediv7{
+    float: left;
+   height: 180px;
+   width: 20%;
+   /* background-color:rgb(104, 70, 81);    */
+   border: 1px solid black;
+}
+.somediv8{
+    float: left;
+   height: 90px;
+   width: 60%;
+   /* background-color:rgb(16, 241, 65);    */
+   border: 1px solid black;
+}
+.somediv9{
+    float: left;
+   height: 90px;
+   width: 80%;
+   /* background-color:rgb(128, 127, 91);    */
+   border: 1px solid black;
+}
+@media only screen and (max-width:797px){
+      .somediv3,.somediv4,.somediv5,.somediv6,.somediv7{
+          width: 50%;
+      }
+      .somediv6{
+          height: 270px;
+      }
+      .somediv8,.somediv9{
+          width: 100%;
+      }
+}
+
+@media only screen and (max-width:340px){
+    /* [class^='somediv'] selector all classes that begin with word(div)*/
+    /* [class^='somediv'] selector all classes that contain the word(div)*/
+    [class^='somediv']{
+        width: 100%;
+    }
+}
+

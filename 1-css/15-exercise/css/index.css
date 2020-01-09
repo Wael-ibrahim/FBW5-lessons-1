@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+nav>ul{
+    list-style-type: none;
+    text-align: center;
+    height: 50px;
+    margin: auto;
+    width: 381px;
+    padding-left: 20px;
+    padding-top: 5px;
+
+}
+nav>ul>li{
+    /* display: inline-block; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    float: left;
+    background-color: rgb(0, 0, 2);
+    margin-right: 20px;
+    border-radius:10px 0 10px 0;
+    width: 100px;
+    color: white;   
+}
+nav>ul>li>label{
+    display: block;
+}
+
+
+nav>ul>li>label:hover{
+    /* color: black; */
+    font-weight: bolder;
+    /* background-color: white; */
+    font-size: 25px;
+    /* box-shadow: 5px 5px 5px black; */
+    
+}
+.banner{
+    margin-top: 15px;
+    background-image: url(../img/w.jpg);
+    height: 80vh;
+    margin-left: 10px;
+    margin-right: 10px;
+    clip-path: polygon(0 0,100% 0,100% 60%,0 100%);
+    /* background-size: cover; */
+    background-position: 36% 19%;
+    
+}
+section,input{
+    display: none;
+}
+input:checked + section{
+    display: block;
+}
+.dropdown{
+    position: relative;
+    z-index: 3;
+    display: none;
+}
+.dropdown>ul{
+    background-color:black;
+    list-style-type:none ;
+    
+}
+.dropdown>ul>li{
+    margin-bottom: 5px;
+    width: 100px;
+    text-align: center;
+}
+.dropdown>ul>li>a{
+    text-decoration: none;
+    color: white;
+    background-color: gray;
+    display: block;
+    border-radius:10px 0 10px 0;
+}
+.dropdown>ul>li>a:hover{
+    font-size: 20px;
+}
+nav>ul>li:hover>.dropdown{
+    display: block;
+}
+@media only screen and (max-width:390px){
+    nav>ul{
+        width: 100%;
+        height: 150px;
+        padding-left: 0;
+    }
+    nav>ul>li{
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    body{
+        background-color: red;
+    }
+}
+@media only screen and (min-width:390px){
+    body{
+    background-color: blue;
+}
+}
+@media only screen and (min-width:1200px){
+    body{
+    background-color: green;
+}
+}
+
+
+ 

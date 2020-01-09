@@ -1,0 +1,24 @@
+.div1{
+    height: 10vh;
+    background-color: red;
+}
+.div2{
+    height: 20vh;
+    background-color:blue;
+}
+.div3{
+    height: 20vh;
+    background-color:yellow;
+}
+.div4{
+    height: 20vh;
+    background-color: rgb(133, 40, 6);
+}
+.div5{
+    height: 20vh;
+    background-color: darkmagenta;
+}
+.div6{
+    height: 10vh;
+    background-color: green;
+}
