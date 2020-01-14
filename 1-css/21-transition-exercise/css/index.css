@@ -34,6 +34,7 @@
 .togglebox > span:nth-child(1){
    left: 20px;
    top: 23.5px;
+   transition: transform 0.2s;
 }
 .togglebox > span:nth-child(2){
     left: 20px;
@@ -42,4 +43,17 @@
  .togglebox > span:nth-child(3){
     left: 20px;
     top: 43.5px;
+    transition: transform 0.2s;
  }
+ .container>input:checked+label>.togglebox>span:nth-child(2){
+    display: none;
+ }
+ .container>input:checked+label>.togglebox>span:nth-child(1){
+    transform: rotate(45deg);
+    top: 50%;
+ }
+ .container>input:checked+label>.togglebox>span:nth-child(3){
+    transform: rotate(-45deg);
+    top: 50%;
+ }
+ 

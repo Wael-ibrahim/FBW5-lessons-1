@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head{
+    padding: 10px;
+    width: 100vw;
+    height: 150px;
+    background-color: rgb(86, 148, 29);
+}
+.container{
+    height: 60vh;
+    background-color: violet;
+    display: flex;
+    flex-wrap: wrap;
+}
+.left{
+    padding: 10px;
+    flex-grow: 3;
+    background-color:rgb(158, 190, 158) ;
+    
+}
+.center{
+    padding: 10px;
+    background-color: lightsalmon;
+    flex-grow: 1;
+}
+.right{
+    padding: 10px;
+    background-color: rgb(119, 114, 112);
+    flex-grow: 1;
+}
+.footer{
+    padding: 10px;
+    width: 100vw;
+    height: 150px;
+    background-color: rgb(86, 148, 29);
+}
