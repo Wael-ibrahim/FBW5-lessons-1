@@ -1,0 +1,18 @@
+@mixin waelProps {
+    color: red;
+    font-size: 50px;
+    border: 5px solid blue;
+    
+}
+.container{
+    @include waelProps();
+    box-shadow: 5px 5px 5px black;
+    & > p{
+        color: blue;
+        &:hover{
+            box-shadow: 5px 5px 5px lightblue;
+            @include waelProps();
+        }
+    }
+}
+
