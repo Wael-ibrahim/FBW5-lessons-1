@@ -90,7 +90,7 @@ body{
 }
 .list{
     list-style-type: none;
-    margin-top: 20px;
+    margin-top: 0;
     text-align: center;
     color: gray;
     font-size: smaller;
@@ -126,7 +126,7 @@ body{
 .flip:hover .base{
     transform: rotatey(180deg);
 }
-.front, .back{
+.front, .back, .back1, .back2{
     backface-visibility: hidden;
     height: 100%;
     width: 100%;
@@ -136,7 +136,88 @@ body{
 .front{
     background-color: white;
 }
+
+
 .back{
-    background: linear-gradient(rgb(201, 166, 50),rgb(90, 48, 13));
+    background: linear-gradient(rgb(236, 199, 31) ,rgb(145, 104, 16));
     transform: rotatey(180deg);
+    position: relative;
+   
+}
+.back1{
+    background: linear-gradient(rgb(134, 229, 142) ,rgb(80, 165, 123));
+    transform: rotatey(180deg);
+    position: relative;
+   
+}
+.back2{
+    background: linear-gradient(rgb(54, 116, 209) ,rgb(50, 48, 129));
+    transform: rotatey(180deg);
+    position: relative;
+   
+}
+
+
+/* .only{
+    
+    color: white;
+    top: 130px;
+    left: 125px;
+    position: absolute;  
+}
+
+.pris{
+    color: rgba(255, 255, 255, 0.493);
+    top: 145px;
+    left: 90px;
+    font-size: 50px;
+    position: absolute;
+   
+}
+.book{
+    bottom: 65px;
+    left: 85px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    padding: 10px 15px 10px 15px;
+    border-radius: 25px;
+    position: absolute;
+    
+} */
+
+.back>p{
+    color: white;
+    top: 130px;
+    left: 125px;
+    text-align: center;
+    position: absolute;
+    
+}
+.backbas{
+    width: 100%;
+    height: 135px;
+    position: absolute;
+    display: none;
+    bottom: 1px;
+    background:linear-gradient(rgb(236, 199, 31) ,rgb(145, 104, 16)) ;
+    clip-path: polygon(0 25%,100% 0%,100% 100%,0% 100%);
+}
+.backbas1{
+    width: 100%;
+    height: 135px;
+    position: absolute;
+    display: none;
+    bottom: 1px;
+    background: linear-gradient(rgb(134, 229, 142) ,rgb(80, 165, 123));
+    clip-path: polygon(0 25%,100% 0%,100% 100%,0% 100%);
+}
+.backbas2{
+    width: 100%;
+    height: 135px;
+    position: absolute;
+    display: none;
+    bottom: 1px;
+    background: linear-gradient(rgb(54, 116, 209) ,rgb(50, 48, 129));
+    clip-path: polygon(0 25%,100% 0%,100% 100%,0% 100%);
 }

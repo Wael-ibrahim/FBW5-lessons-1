@@ -47,6 +47,8 @@
     margin: auto;
 }
 
+
+
 @media only screen and (max-width:768px){
     [class*='col']{
         
@@ -62,6 +64,7 @@
         padding: 0;
         margin: 0;
     }
+    
 
   }
   
@@ -76,9 +79,10 @@
     .container{
         width:100% ;
     }
-    
-    
-    
-  
+    .flip:hover .base{
+        transform: none; 
 }
-
+.backbas, .backbas1, .backbas2{
+    display: block;
+}
+}
