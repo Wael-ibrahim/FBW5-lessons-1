@@ -1,0 +1,165 @@
+
+/* navigation start here */
+nav>ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+   display: flex;
+   justify-content: center;
+}
+nav>ul>li{
+    margin: 15px;
+    background-color: rgb(50, 50, 156);
+    border-radius: 10px 0;
+    transition: transform 0.2s, box-shadow 0.2s;
+   font-size: 20px;
+   
+}
+
+nav>ul>li:hover{
+    background-color: rgb(233, 225, 225);
+    box-shadow: 5px 5px 5px rgba(194, 168, 36, 0.89);
+    transform: scale(1.2);
+    
+}
+
+
+nav>ul>li>a{
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    color: rgb(8, 8, 8);
+}
+/* navigation ends here */
+
+
+
+/* banner start here */
+
+.banner{
+    height: 80vh;
+    background-image: url('../img/hero.jpg');
+    background-position-y:40% ;
+    background-position-x:30% ;
+    clip-path: polygon(0 0,100% 0,100% 60vh,0 80vh);
+    margin-top: 10px;
+}
+
+/* banner end here */
+
+h2{
+    text-align: center;
+    color: rgb(179, 159, 46);
+    text-shadow:2px 2px 2px black;
+    font-size: xx-large;
+}
+
+
+/* cards start here */
+.cards{
+    width: 60vw;
+    margin: auto;
+}
+.cards-container{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.card{
+    border: 2px solid black;
+    width: 200px;
+    background-color: rgb(50, 50, 156);
+}
+.cards>h2{
+    text-align: center;
+    color: rgb(19, 17, 17);
+    text-shadow:2px 2px 2px rgb(135, 151, 202);
+    font-size: xx-large;
+}
+.card-content{
+    margin: 5px;
+    
+   color: white;
+}
+
+.card-head>h3{
+    text-align: center;
+    color: rgb(12, 10, 10);
+    text-shadow:1px 1px 1px rgb(195, 199, 214);
+    border-bottom: 1px solid rgb(5, 5, 5);
+}
+
+
+/* cards end here */
+
+/* footer start here */
+
+.footer{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: rgb(34, 30, 30);
+}
+.logo-container>img{
+    width: 200px;
+}
+.contact-container>ul{
+    list-style-type: none;
+    padding: 0;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+.social{
+    list-style-type: none;
+    padding: 0;
+    margin-left: 10px;
+    margin-top: 180px;
+}
+
+.contact-container>ul>li>a,.social>li>a{
+    color: rgb(247, 240, 240);
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+.input-container>input,.input-container>textarea{
+    margin: 10px;
+}
+
+.footer-btn{
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+
+/* footer end here */
+
+@media only screen and (max-width:480px){
+
+   /* navigation start here */
+    nav>ul{
+        flex-direction: column;
+    }
+    nav>ul>li>a{
+        text-align: center;
+    }
+    nav>ul>li{
+        margin: 3px;
+    }
+
+    /* navigation ends here */
+
+    .cards-container{
+        flex-direction: column;
+    }
+    .cards{
+        margin: 0;
+        width: 100%;
+    }
+    .card{
+        margin-bottom: 10px;
+        width: 100%;
+    }
+}
