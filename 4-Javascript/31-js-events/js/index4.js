@@ -12,7 +12,7 @@ window.onload = ()=>{
     })
 }
 
-function throwTheBall(ball, y, x){
+function throwTheBall(ball, y, x, parentHight, ballHight){
     ball.style.left = x
     let down = true
     let counter = y
@@ -23,7 +23,7 @@ function throwTheBall(ball, y, x){
         } else {
             counter--;
         }
-        if(counter == 490){
+        if(counter == parentHight - ballHight ){
             down = false
         }
         if(counter == 0){
